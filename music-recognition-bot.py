@@ -29,7 +29,7 @@ def start(message):
         file.close()
     bot.reply_to(message, "سلام، به ربات تشخیص آهنگ خوش آمدید ! ✨🥳")
     markup = InlineKeyboardMarkup()
-    button = InlineKeyboardButton("📢 عضویت در کانال گوربه میوزیک", url="https://t.me/justmeowsic")
+    button = InlineKeyboardButton("📢 عضویت در کانال گوربه میوزیک", url="<>")
     markup.add(button)
     bot.send_message(
         message.chat.id,
